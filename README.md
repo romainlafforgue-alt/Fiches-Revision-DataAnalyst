@@ -1,34 +1,62 @@
-# Les Claudios — Quiz Bloc 2 🇫🇷
+# 📚 Fiches de Révision — Data Analyst
 
-Quiz interactif solo pour réviser le **Bloc 2** de la certification Data Analyst (Wild Code School) :
-Python · Pandas · Regex · Agile.
+Application web de révision interactive pour la certification **Data Analyst** (Wild Code School, promo Février–Juillet 2026).
 
-## 🎮 Jouer
+🔗 **Voir la fiche en ligne** : https://romainlafforgue-alt.github.io/Fiches-Revision-DataAnalyst/
 
-👉 Une fois hébergé sur GitHub Pages, le quiz est jouable directement ici :
-`https://TON-PSEUDO.github.io/NOM-DU-REPO/`
+![Statut](https://img.shields.io/badge/statut-en%20cours-orange)
+![Certification](https://img.shields.io/badge/certification-RNCP%20Data%20Analyst-blue)
 
-Aucune installation nécessaire : tout tourne dans le navigateur (HTML/CSS/JS pur, aucune dépendance externe).
+---
+
+## 🎯 À propos
+
+Cette fiche couvre les **4 blocs de compétences** de la certification :
+
+| Bloc | Contenu |
+|------|---------|
+| **Bloc 1** — Traiter et collecter | Webscraping, API & Géocodage, SQL, RGPD |
+| **Bloc 2** — Traiter et analyser | Python, Pandas, Regex, Agile/Scrum |
+| **Bloc 3** — Modéliser | Machine Learning, Statistiques, NLP |
+| **Bloc 4** — Communiquer et déployer | Analyse, Visualisation, Présentation |
 
 ## ✨ Fonctionnalités
 
-- 100 questions (25 par thème), tirées au hasard à chaque partie
-- Chrono de 15s par question avec système de combo (x1.2 / x1.5 / x2)
-- Musique de fond façon guitare espagnole + effets sonores (Web Audio API, aucun fichier audio externe)
-- Bilan de fin de partie avec niveau par thème et conseils de révision ciblés
-- Niveau bonus débloqué avec un grade A ou S (20 questions plus difficiles, chrono à 10s)
-- Raccourcis clavier : touches A/B/C/D ou 1/2/3/4
+- 📖 Fiches de révision détaillées par notion
+- 🎴 Flashcards interactives
+- ❓ Quiz par bloc + Quiz final
+- 🏆 Système de badges et suivi de progression (localStorage)
+- ⏱️ Timer par question, score en temps réel
+- 🎨 Thème sombre "Matrix" avec animation canvas
+- 📱 Responsive (mobile & desktop)
 
-## 🚀 Héberger sur GitHub Pages
+## 🛠️ Stack technique
 
-1. Crée un repo GitHub (public).
-2. Dépose ce fichier `index.html` à la racine.
-3. Va dans **Settings → Pages**.
-4. Choisis la branche `main` et le dossier `/root`.
-5. Ton URL sera générée automatiquement en quelques minutes.
+- HTML / CSS / JavaScript vanilla (aucune dépendance externe)
+- Canvas API pour l'animation de fond
+- Web Audio API pour les sons
+- `localStorage` pour la sauvegarde de la progression
 
-## 🛠️ Modifier
+## 🚀 Utilisation
 
-Le fichier `index.html` est autonome : ouvre-le dans un éditeur de texte (VS Code par exemple),
-la banque de questions se trouve dans les tableaux `QUESTION_BANK` et `BONUS_QUESTION_BANK`
-en haut du bloc `<script>`.
+Aucune installation nécessaire — c'est un fichier HTML autonome.
+
+**Option 1 — En ligne**
+Ouvre directement le lien GitHub Pages ci-dessus.
+
+**Option 2 — En local**
+```bash
+git clone https://github.com/romainlafforgue-alt/Fiches-Revision-DataAnalyst.git
+cd Fiches-Revision-DataAnalyst
+```
+Puis ouvre `index.html` dans ton navigateur.
+
+## 👤 Auteur
+
+**Romain Lafforgue**
+Étudiant Data Analyst — Wild Code School (2026)
+En reconversion vers la Géomatique (CPGEOM — IDGEO, RNCP niveau 7)
+
+---
+
+*Projet réalisé dans le cadre de la préparation à la certification RNCP Data Analyst.*
